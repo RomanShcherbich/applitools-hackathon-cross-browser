@@ -1,12 +1,10 @@
 
 # Steps to run tests
 1. To run modern tests against version 1:
-
 `mvn test -DtestNgSuite=resources/suites/ModernTestsV1Suite.xml`
-
 2. To run modern tests against version 2:
+`mvn test -DtestNgSuite=resources/suites/ModernTestsV2Suite.xml`
 
-`mvn test -DtestNgSuite=resources/suites/ModernTestsV2Suite.xml` 
 #### The AppliFashion App:
 [Version 1](https://demo.applitools.com/gridHackathonV1.html)
 

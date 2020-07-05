@@ -50,8 +50,8 @@ public class BaseTest {
         wait = new WebDriverWait(driver, 5);
     }
 
-    @AfterClass
-    public void classTearDown() {
+    @AfterMethod
+    public void methodTearDown() {
         eyes.closeAsync();
     }
 
